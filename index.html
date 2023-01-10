@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="../exchange/styles/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Conversor de Monedas</header>
+        <form action="#">
+            <div class="amount">
+                <p>Ingresar Cantidad</p>
+                <input type="text" value="1000">
+            </div>
+             <div class="drop-list">
+                <div class="from">
+                    <p> DE</p>
+                    <div class="select-box">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="50px" alt="flag">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p> A</p>
+                   <div class="select-box">
+                    <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="50px" alt="flag">
+                    <select>
+                    </select>
+                   </div>
+                </div>
+             </div>
+             <div class="exganche-rate">1 USD= 350 ARS</div>
+             <button>Ver Cotizacion</button>
+        </form>
+    </div>
+<script src="../exchange/js/country-list.js"></script>
+<script src="../exchange/js/script.js"></script>
+</body>
+</html>
